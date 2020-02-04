@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6abea3c5-330c-4dcc-8102-3d812b0b3057" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/sample_codes" />
+  </component>
+  <component name="ProjectId" id="1TZF26K46Dc4u62HO233TEoCvM6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PythonProjects\IR" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CaptureCameras">
+    <configuration name="CaptureCameras" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CaptureCameras" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewCapture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ViewCapture.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewRaw" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ViewRaw.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ViewScaled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ViewScaled.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="viewvideo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/viewvideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.CaptureCameras" />
+        <item itemvalue="Python.ViewScaled" />
+        <item itemvalue="Python.ViewRaw" />
+        <item itemvalue="Python.ViewCapture" />
+        <item itemvalue="Python.viewvideo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6abea3c5-330c-4dcc-8102-3d812b0b3057" name="Default Changelist" comment="" />
+      <created>1573659500708</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573659500708</updated>
+      <workItem from="1573659507659" duration="2789000" />
+      <workItem from="1573822666152" duration="35000" />
+      <workItem from="1573822770126" duration="335000" />
+      <workItem from="1574523056785" duration="39000" />
+      <workItem from="1574523139756" duration="2484000" />
+      <workItem from="1574527008959" duration="615000" />
+      <workItem from="1574527935801" duration="58000" />
+      <workItem from="1574698719403" duration="15204000" />
+      <workItem from="1574873959614" duration="7000" />
+      <workItem from="1578305562547" duration="661000" />
+      <workItem from="1579209182662" duration="2367000" />
+      <workItem from="1579212412225" duration="367000" />
+      <workItem from="1579215730326" duration="205000" />
+      <workItem from="1579524256537" duration="141000" />
+      <workItem from="1579524674389" duration="1659000" />
+      <workItem from="1579526454723" duration="7707000" />
+      <workItem from="1579541897437" duration="128000" />
+      <workItem from="1579609309155" duration="15348000" />
+      <workItem from="1579635769156" duration="11503000" />
+      <workItem from="1579655419176" duration="2539000" />
+      <workItem from="1579699102752" duration="1168000" />
+      <workItem from="1579712924056" duration="377000" />
+      <workItem from="1579879233545" duration="2508000" />
+      <workItem from="1579884474918" duration="465000" />
+      <workItem from="1580246981066" duration="67000" />
+      <workItem from="1580466947028" duration="951000" />
+      <workItem from="1580469859653" duration="3384000" />
+      <workItem from="1580484107885" duration="1794000" />
+      <workItem from="1580740401223" duration="1068000" />
+      <workItem from="1580828214651" duration="657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579616864958">
+      <screen x="0" y="22" width="1920" height="1058" />
+    </state>
+    <state x="461" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1579616864958" />
+    <state x="2931" y="868" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579649137806">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state x="2931" y="868" key="#com.intellij.fileTypes.FileTypeChooser/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579649137806" />
+    <state x="2619" y="590" key="FileChooserDialogImpl" timestamp="1579212484987">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2619" y="590" key="FileChooserDialogImpl/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212484987" />
+    <state width="2514" height="500" key="GridCell.Tab.0.bottom" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.0.bottom/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="1352" height="267" key="GridCell.Tab.0.bottom/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212778884" />
+    <state width="2514" height="500" key="GridCell.Tab.0.bottom/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.0.center" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.0.center/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="1352" height="267" key="GridCell.Tab.0.center/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212778884" />
+    <state width="2514" height="500" key="GridCell.Tab.0.center/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.0.left" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.0.left/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165790" />
+    <state width="1352" height="267" key="GridCell.Tab.0.left/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212778884" />
+    <state width="2514" height="500" key="GridCell.Tab.0.left/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.0.right" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.0.right/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="1352" height="267" key="GridCell.Tab.0.right/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212778884" />
+    <state width="2514" height="500" key="GridCell.Tab.0.right/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.1.bottom" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.1.bottom/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="2514" height="500" key="GridCell.Tab.1.bottom/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.1.center" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.1.center/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="2514" height="500" key="GridCell.Tab.1.center/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.1.left" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.1.left/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="2514" height="500" key="GridCell.Tab.1.left/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state width="2514" height="500" key="GridCell.Tab.1.right" timestamp="1579655105453">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state width="1352" height="330" key="GridCell.Tab.1.right/0.22.1920.1058@0.22.1920.1058" timestamp="1579536165791" />
+    <state width="2514" height="500" key="GridCell.Tab.1.right/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579655105453" />
+    <state x="2255" y="602" key="SettingsEditor" timestamp="1579651344840">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state x="503" y="222" key="SettingsEditor/0.22.3840.1058@0.22.3840.1058" timestamp="1579624920944" />
+    <state x="2700" y="353" key="SettingsEditor/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579212556822" />
+    <state x="2255" y="602" key="SettingsEditor/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579651344840" />
+    <state x="2885" y="685" key="com.intellij.ide.util.TipDialog" timestamp="1580828215086">
+      <screen x="1920" y="139" width="2560" height="1440" />
+    </state>
+    <state x="724" y="423" key="com.intellij.ide.util.TipDialog/0.22.1920.1058/0.22.1920.1058@0.22.1920.1058" timestamp="1580740402508" />
+    <state x="724" y="423" key="com.intellij.ide.util.TipDialog/0.22.1920.1058@0.22.1920.1058" timestamp="1580469860459" />
+    <state x="2885" y="546" key="com.intellij.ide.util.TipDialog/1920.0.2560.1440/0.360.1920.1080/4480.0.1080.1920@1920.0.2560.1440" timestamp="1579209183554" />
+    <state x="2885" y="685" key="com.intellij.ide.util.TipDialog/1920.139.2560.1440/4480.0.1080.1920/0.230.1920.1080@1920.139.2560.1440" timestamp="1580828215086" />
+    <state x="724" y="1099" key="com.intellij.ide.util.TipDialog/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@0.690.1920.1080" timestamp="1579635789842" />
+    <state x="2885" y="875" key="com.intellij.ide.util.TipDialog/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579699115899" />
+    <state x="1510" y="245" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579626776211">
+      <screen x="0" y="22" width="3840" height="1058" />
+    </state>
+    <state x="755" y="245" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.22.1920.1058@0.22.1920.1058" timestamp="1579524363210" />
+    <state x="1510" y="245" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.22.3840.1058@0.22.3840.1058" timestamp="1579626776211" />
+    <state x="2863" y="677" key="search.everywhere.popup" timestamp="1579649314122">
+      <screen x="1920" y="330" width="2560" height="1440" />
+    </state>
+    <state x="2863" y="677" key="search.everywhere.popup/1920.330.2560.1440/4480.0.1080.1920/0.690.1920.1080@1920.330.2560.1440" timestamp="1579649314122" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IR$testing123.coverage" NAME="testing123 Coverage Results" MODIFIED="1573662288359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR$ViewCapture.coverage" NAME="ViewCapture Coverage Results" MODIFIED="1579653782026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR$terarangercapture2.coverage" NAME="terarangercapture2 Coverage Results" MODIFIED="1579527025796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR$viewvideo.coverage" NAME="viewvideo Coverage Results" MODIFIED="1574711731472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR$terarangercapture.coverage" NAME="terarangercapture Coverage Results" MODIFIED="1579527142755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR$NewCapture.coverage" NAME="NewCapture Coverage Results" MODIFIED="1579653227485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
