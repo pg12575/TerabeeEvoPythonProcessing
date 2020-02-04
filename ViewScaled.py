@@ -29,7 +29,13 @@ class ViewThermal():
         self.text2 = Tk.Label(self.window)
         self.text2.config(height=10, width=20, text='', font=("Helvetica", 25))
         self.text2.pack(side=Tk.BOTTOM)
-        self.text2.config(text="Evo Thermal " + str(portname))
+        if portname == "ACM0":
+            self.text2.config(text="Top View Dining")
+        elif portname == "ACM1":
+            self.text2.config(text="Side View Kitchen")
+        elif portname == "ACM2":
+            self.text2.config(text="Top View Kitchen")
+        self.MinAvg = []
 
         self.MinAvg = []
         self.MaxAvg = []
@@ -108,8 +114,17 @@ if __name__ == "__main__":
     N = 32
     portname1 = "ACM0"
     portname2 = "ACM1"
-    data1 = np.loadtxt("output/frame" + str(portname1) + ".txt")
-    data2 = np.loadtxt("output/frame" + str(portname2) + ".txt")
+    portname3 = "ACM2"
+    #data1 = np.loadtxt("output/frame" + str(portname1) + ".txt")
+
+    data1 = np.fromfile("output/frame" + str(portname1) + ".txt", sep=' ')
+    data2 = np.fromfile("output/frame" + str(portname2) + ".txt",  sep=' ')
+    data3 = np.fromfile("output/frame" + str(portname3) + ".txt",  sep=' ')
+
+    data1 = data1.reshape(len(data1)//32, 32)
+    data2 = data2.reshape(len(data2)//32, 32)
+    data3 = data3.reshape(len(data3)//32, 32)
+
 
     i = 0
     numRows, _ = data1.shape
@@ -117,9 +132,13 @@ if __name__ == "__main__":
 
     data1 = data1[:numFrames * 32].reshape((numFrames, 32, 32))
     data2 = data2[:numFrames * 32].reshape((numFrames, 32, 32))
+    data3 = data3[:numFrames * 32].reshape((numFrames, 32, 32))
+
 
     view1 = ViewThermal(data1, portname1)
     view2 = ViewThermal(data2, portname2)
+    view3 = ViewThermal(data3, portname3)
+
 
     while i < (len(data1) - 1):
         viewframe = np.copy(data1[i+1])
@@ -131,6 +150,11 @@ if __name__ == "__main__":
         newframe2 = view2.scaleImg(viewframe2)
         view2.rounded_array = np.round(newframe2, 0)
         view2.update_GUI()
+
+        viewframe3 = np.copy(data3[i + 1])
+        newframe3 = view3.scaleImg(viewframe3)
+        view3.rounded_array = np.round(newframe3, 0)
+        view3.update_GUI()
 
         i = i + 1
         #print(i)
