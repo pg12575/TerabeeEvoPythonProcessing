@@ -1,0 +1,9 @@
+crcmod==1.7
+future==0.18.2
+iso8601==0.1.12
+numpy==1.19.0
+opencv-python==4.2.0.34
+Pillow==7.1.2
+pyserial==3.4
+PyYAML==5.3.1
+serial==0.0.97
