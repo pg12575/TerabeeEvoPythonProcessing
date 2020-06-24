@@ -16,6 +16,7 @@ import os
 
 
 class EvoThermal():
+    # vlc rtsp://192.168.86.45:554/live1.sdp
     def __init__(self, portname, rotate):
         self.rotate = rotate
         ### Search for Evo Thermal port and open it ###
@@ -191,12 +192,12 @@ class EvoThermal():
         #rawframe = rawframe.reshape((1, 32, 32))
 
         if self.rotate == 1:
-            frame = np.rot90(frame, k=2)
+            frame = np.rot90(frame, k=1)
             frame = np.flip(frame, axis=0)
 
         if self.rotate == 2:
             frame = np.rot90(frame, k=3)
-            frame = np.flip(frame, axis=1)
+            frame = np.flip(frame, axis=0)
 
         self.rounded_array = np.round(frame, 0)
         self.update_GUI()
@@ -215,14 +216,14 @@ if __name__ == "__main__":
     files = glob.glob('output/*')
     for f in files:
         os.remove(f)
-
+    # sudo usermod -a -G dialout $USER
     evo = EvoThermal("ACM0", 2)
-    #evo2 = EvoThermal("ACM1", 1)
+    evo2 = EvoThermal("ACM1", 1)
     #evo3 = EvoThermal("ACM2", 0)
 
     # sudo chmod 666 /dev/ttyACM0
     filehandle = open('output/frameACM0' + '.txt', 'a+')
-    #filehandle2 =  open('output/frameACM1' + '.txt', 'a+')
+    filehandle2 =  open('output/frameACM1' + '.txt', 'a+')
     #filehandle25 =  open('output/frameACM2' + '.txt', 'a+')
 
     filehandle3 =  open('output/timestamp.txt', 'a+')
@@ -231,12 +232,12 @@ if __name__ == "__main__":
     try:
         while True:
             rawframe1 = evo.run()
-            #rawframe2 = evo2.run()
+            rawframe2 = evo2.run()
             #rawframe3 = evo3.run()
             dateTimeObj = datetime.now()
 
             np.savetxt(filehandle, rawframe1)
-            #np.savetxt(filehandle2, rawframe2)
+            np.savetxt(filehandle2, rawframe2)
             #np.savetxt(filehandle25, rawframe3)
 
             filehandle3.write("%s\r\n" %str(dateTimeObj) )
@@ -253,7 +254,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         evo.stop()
         evo2.stop()
-        evo3.stop()
+        #evo3.stop()
 
         filehandle.close()
         filehandle2.close()
