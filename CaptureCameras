@@ -17,6 +17,8 @@ import os
 
 class EvoThermal():
     # vlc rtsp://192.168.86.45:554/live1.sdp
+    #https://www.christopherlovell.co.uk/blog/2016/04/27/h5py-intro.html
+
     def __init__(self, portname, rotate):
         self.rotate = rotate
         ### Search for Evo Thermal port and open it ###
@@ -198,6 +200,8 @@ class EvoThermal():
         if self.rotate == 2:
             frame = np.rot90(frame, k=3)
             frame = np.flip(frame, axis=0)
+            frame = np.flip(frame, axis=1)
+
 
         self.rounded_array = np.round(frame, 0)
         self.update_GUI()
