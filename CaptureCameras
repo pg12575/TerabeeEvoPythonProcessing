@@ -199,7 +199,7 @@ class EvoThermal():
 
         if self.rotate == 2:
             frame = np.rot90(frame, k=3)
-            frame = np.flip(frame, axis=0)
+            #frame = np.flip(frame, axis=0)
             frame = np.flip(frame, axis=1)
 
 
